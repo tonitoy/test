@@ -9,7 +9,6 @@ from redis import Redis #for reddis stuff
  
 @app.route('/') 
  
-@@ -80,6 +81,24 @@ def getSlack(name):
 return jsonify(input, True) 
  else: 
 return jsonify(input, False) 
