@@ -8,10 +8,6 @@ from redis import Redis #for reddis stuff
 
  
 @app.route('/') 
- 
-return jsonify(input, True) 
- else: 
-return jsonify(input, False) 
 
 @app.route("/kv-retrieve/<string:retrieve>") 
 
